@@ -1,0 +1,39 @@
+.wrapper {
+  display: flex;
+  margin-top: 25px;
+}
+
+.dayBlock {
+  text-align: center;
+  flex: 1;
+  width: 150px;
+}
+
+.dayBlock:not(:first-child) .content,
+.dayBlock:not(:first-child) .header {
+  border-left: 1px solid #dfdfdf;
+}
+
+.header {
+  padding: 5px;
+  border-top: 1px solid #dfdfdf;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.content {
+  padding: 10px 5px;
+ 
+}
+
+.tempMax {
+  color: red;
+}
+
+.tempMin {
+  color: blue;
+}
+
+.icon img {
+  max-width: 100%;
+  height: auto;
+}

@@ -1,0 +1,14 @@
+.wrapper {
+  margin-top: 15px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.active {
+  background-color: #535353 !important;
+  color: #fff !important;
+}
