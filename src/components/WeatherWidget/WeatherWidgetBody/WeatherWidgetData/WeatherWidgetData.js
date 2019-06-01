@@ -39,7 +39,7 @@ export const _WeatherWidgetData = ({ sort, weatherData }) => {
         preparedUnits.map((item) => (
           <div className={styles.dayBlock} key={item.date}>
             <div className={`${styles.header} truncate-text`}>
-              {moment(item.date).format('ddd MM/DD')}
+              {moment(item.date).format('ddd DD/MM/YY')}
             </div>
             <div className={styles.content}>
               <div className={`${styles.temp} truncate-text`}>
