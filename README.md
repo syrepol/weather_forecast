@@ -1,3 +1,5 @@
+[![HitCount](http://hits.dwyl.io/syrepol/https://githubcom/syrepol/weather-forecast-app.svg)](http://hits.dwyl.io/syrepol/https://githubcom/syrepol/weather-forecast-app)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
